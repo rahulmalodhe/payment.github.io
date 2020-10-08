@@ -1,0 +1,218 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:#2C3335;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 20px;
+}
+#phonepe {
+
+  transition: 0.3s;
+  margin-left:43%;
+  margin-top:45px;
+  margin-right:36.5%;
+  color: deepskyblue;
+  
+}
+
+#googlepay {
+
+  
+    transition: 0.3s;
+    margin-left:43%;
+    margin-top:45px;
+    margin-right:36.5%;
+    color: deepskyblue;
+    
+  }
+
+  #bhim {
+
+  
+    transition: 0.3s;
+    margin-left:43%;
+    margin-top:45px;
+    margin-right:36.5%;
+    color: deepskyblue;
+    
+  }
+  #paytm {
+
+  
+    transition: 0.3s;
+    margin-left:43%;
+    margin-top:45px;
+    margin-right:36.5%;
+    color: deepskyblue;
+    
+  }
+.pay{
+    background-color:#0ABDE3;
+    font-size:25px;
+    border-radius:50px;
+    padding:15px;
+    border-color: #0ABDE3;
+    color:white;
+    font-weight:400;
+    text-align:center;
+    width:200px;
+    
+}
+
+#phonepe:hover{
+    opacity:0.8;
+    }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 52px; /* Location of the box */
+  left:20.2%;
+  top: 10%;
+  width: 60%; /* Full width */
+  height: 60%; /* Full height */
+  /* overflow: auto; Enable scroll if needed */
+  /* background-color:#2C3335; Fallback color */
+  /* background-color:#2C3335;  */
+ /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display:block;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #f1f1f1;
+  font-size: 30px;
+  font-weight: lighter;
+  transition: 0.2s;
+  opacity:0.4;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 20px;
+}
+  #phonepe {
+
+    transition: 0.3s;
+    margin-left:25%;
+    margin-top:40px;
+    margin-right:36.5%;
+    color: deepskyblue;
+    
+  }
+
+
+
+#googlepay {
+
+  
+  transition: 0.3s;
+  margin-left:25%;
+  margin-top:40px;
+  margin-right:36.5%;
+  color: deepskyblue;
+  
+}
+
+#bhim {
+
+
+  transition: 0.3s;
+  margin-left:25%;
+  margin-top:40px;
+  margin-right:36.5%;
+  color: deepskyblue;
+  
+}
+#paytm {
+
+
+  transition: 0.3s;
+  margin-left:25%;
+  margin-top:40px;
+  margin-right:36.5%;
+  color: deepskyblue;
+  
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 120px; /* Location of the box */
+  left:5%;
+  top:10%;
+  width: 90%; /* Full width */
+  height: 700px; /* Full height */
+}
+.modal-content {
+  margin: auto;
+  display:block;
+  width: auto;
+  max-width: 100px;
+}
+.close {
+  position: absolute;
+  top: 10%;
+  left: 98%;
+  color: #f1f1f1;
+  font-size: 20px;
+  font-weight: lighter;
+  transition: 0.2s;
+  opacity:0.4;
+}
+  
+}
